@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("/img/bck.jpg");
+    background-size: cover;
+}
+.logo-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.logo-img{
+    width:20%;
+    height:auto;
+}
+.main{
+    margin-top: 60px;
+}
+.titleTxt{
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    font-family: Arial;
+}
+.descTxt{
+    color: darkgray;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial;
+}
+.offerTxt{
+    color:white;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.offer{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    width: 900px;
+    height: 100px;
+}
+
+.offer-img{
+    width: 90px;
+    height: auto;
+}
+
+.offer-desc{
+    width: 900px;
+    background-color: black;
+    color: white;
+}
+.offer-item{
+    border-right: 1px gray solid;
+}
+.play-btn{
+    padding: 7px;
+    border-radius: 2px;
+    border: none;
+    width: 80%;
+    margin: auto;
+    font-size: 14px;
+    color: white;
+    background-color: #49bb4f;
+}
+.play-btn:hover{
+    cursor: pointer;
+}
+.offer-rating{
+    color: rgba(0,0,0,0.85);
+    font-size: 28px;
+    font-family: "Arial Black";
+}
+table td {
+
+    text-align: center;
+    width: 19%;
+    height: 95%;
+    overflow: hidden;
+
+}
